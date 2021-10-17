@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Montserrat:wght@100&display=swap");
+body {
+  background: #c1c1e0; }
+
+h1 {
+  font-family: "Gochi Hand", cursive;
+  font-size: 48px;
+  color: #4646F4; }
+
+.jumbotron {
+  background-image: linear-gradient(#F4F446, #c1c1e0); }
