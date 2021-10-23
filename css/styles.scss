@@ -5,6 +5,7 @@ $header-font: 'Gochi Hand', cursive;
 $jumbotron-background-color: #F4F446;
 $header-text-color: #4646F4;
 $body-color: #c1c1e0;
+$secondary-text-color: #4d9c84;
 
 body {
     background: $body-color;
@@ -12,21 +13,44 @@ body {
 
 h1{
     font-family: $header-font;
-    font-size: 48px;
+    font-size: 55px;
     color: $header-text-color;
 }
 
 h2{
     font-family: $header-font;
-    font-size: 26px;
+    font-size: 36px;
     color: $header-text-color;
+}
+
+h3{
+    font-family: $header-font;
+    font-size: 24px;
+    color: $header-text-color;
+}
+
+h4{
+    font-family: $header-font;
+    font-size: 18px;
+    color: $secondary-text-color;
 }
 
 .jumbotron {
     background-image: linear-gradient($jumbotron-background-color, $body-color);
+    height: 160px;
+
 }
 
 .overlay-image-gradient{
     background-image: linear-gradient(#fff 0%, $body-color 100%);
 }
 
+img{
+    padding-bottom: 8px;
+
+}
+
+.nav-item{
+    margin-left: 15px;
+    margin-right: 10px;
+}

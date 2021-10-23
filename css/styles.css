@@ -5,16 +5,34 @@ body {
 
 h1 {
   font-family: "Gochi Hand", cursive;
-  font-size: 48px;
+  font-size: 55px;
   color: #4646F4; }
 
 h2 {
   font-family: "Gochi Hand", cursive;
-  font-size: 26px;
+  font-size: 36px;
   color: #4646F4; }
 
+h3 {
+  font-family: "Gochi Hand", cursive;
+  font-size: 24px;
+  color: #4646F4; }
+
+h4 {
+  font-family: "Gochi Hand", cursive;
+  font-size: 18px;
+  color: #4d9c84; }
+
 .jumbotron {
-  background-image: linear-gradient(#F4F446, #c1c1e0); }
+  background-image: linear-gradient(#F4F446, #c1c1e0);
+  height: 160px; }
 
 .overlay-image-gradient {
   background-image: linear-gradient(#fff 0%, #c1c1e0 100%); }
+
+img {
+  padding-bottom: 8px; }
+
+.nav-item {
+  margin-left: 15px;
+  margin-right: 10px; }
