@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet"  href="node_modules/lightbox2/dist/css/lightbox.css">
     <link rel="stylesheet" href="css/styles.css" />
     <!--endbuild-->
 </head>
@@ -37,48 +38,63 @@
                 </button>
                 <div class="collapse navbar-collapse" id="ciseNavbar">
                     <ul class="navbar-nav">
-                        <li class="nav-item"> <a class="nav-link" href="index.html"><h4> <i class="fa fa-home fa-lg"></i>  Welcome</h4></a></li>
-                        <li class="nav-item active"> <a class="nav-link" href="coding.html"> <h4><i class="fa fa-code fa-lg"></i>  Coding</h4></a></li>
-                        <li class="nav-item"> <a class="nav-link" href="photography.html"><h4><i class="fa fa-camera fa-lg"></i>  Photography</h4></a></li>
-                        <li class="nav-item"> <a class="nav-link" href="recipes.html"><h4><i class="fa fa-bomb fa-lg"></i>  Tasty Recipes</h4></a></li>
-                        <li class="nav-item"> <a class="nav-link" href="volunteer.html"><h4><i class="fa fa-heart fa-lg"></i>  Volunteer</h4></a></li>
+                        <li class="nav-item"> <a class="nav-link" href="index.html">
+                                <h4> <i class="fa fa-home fa-lg"></i> Welcome</h4>
+                            </a></li>
+                        <li class="nav-item"> <a class="nav-link" href="coding.html">
+                                <h4><i class="fa fa-code fa-lg"></i> Coding</h4>
+                            </a></li>
+                        <li class="nav-item active"> <a class="nav-link" href="photography.html">
+                                <h4><i class="fa fa-camera fa-lg"></i> Photography</h4>
+                            </a></li>
+                        <li class="nav-item"> <a class="nav-link" href="recipes.html">
+                                <h4><i class="fa fa-bomb fa-lg"></i> Food Porn</h4>
+                            </a></li>
+                        <li class="nav-item"> <a class="nav-link" href="volunteer.html">
+                                <h4><i class="fa fa-heart fa-lg"></i> Volunteer</h4>
+                            </a></li>
                     </ul>
                 </div>
         </nav>
         <div class="row justify-content-sm-center">
             <h2>Photography</h2>
         </div>
-    
-        <div class="row">
-            <div class="d-flex flex-wrap justify-content-center">
-                <div class="d-auto col-sm-4">
-                    <img class="img-fluid" src="img/photos/therethere.jpg">
-                    <img class="img-fluid" src="img/photos/embarrasment.jpg">
-                    <img class="img-fluid" src="img/photos/shock.jpg">
-                    <img class="img-fluid" src="img/photos/thekiss.jpg">
-                </div>
-                <div class="d-auto col-sm-4">
-                    <img class="img-fluid" src="img/photos/firework.jpg">
-                    <img class="img-fluid" src="img/photos/nightflower1.jpg">
-                    <img class="img-fluid" src="img/photos/nightflower2.jpg">
-                    <img class="img-fluid" src="img/photos/nightflower3.jpg">
-                </div>
-                <div class="d-auto col-sm-4">
-                    <img class="img-fluid" src="img/photos/brandtpointsunrise.jpg">
-                    <img class="img-fluid" src="img/photos/tastefulhallows.jpg">
-                    <img class="img-fluid" src="img/photos/gonebutnotforgotten.jpg">
-                    <img class="img-fluid" src="img/photos/mydate.jpg">
-                    <img class="img-fluid" src="img/photos/hell.jpg">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="d-flex flex-wrap justify-content-center">
+                    <div class="d-auto col-sm-4">
+                        <a href="img/photos/therethere.jpg" data-lightbox="image-1" data-title="There, there"> <img class="img-fluid img-thumbnail" src="img/photos/therethere.jpg"> There, there</a>
+                        <a href="img/photos/embarrasment.jpg" data-lightbox="image-2" data-title="Embarrasment"> <img class="img-fluid img-thumbnail" src="img/photos/embarrasment.jpg"> Embarrasment </a>
+                        <a href="img/photos/shock.jpg" data-lightbox="image-3" data-title="Shock"> <img class="img-fluid img-thumbnail" src="img/photos/shock.jpg"> Shock </a>
+                        <a href="img/photos/thekiss.jpg" data-lightbox="image-4" data-title="The Kiss"> <img class="img-fluid img-thumbnail" src="img/photos/thekiss.jpg"> The Kiss </a>
+                    </div>
+                    <div class="d-auto col-sm-4">
+                        <a href="img/photos/firework.jpg" data-lightbox="image-5" data-title="Firework"> <img class="img-fluid img-thumbnail" src="img/photos/firework.jpg"> Firework </a>
+                        <a href="img/photos/nightflower1.jpg" data-lightbox="image-6" data-title="nightflower1"><img class="img-fluid img-thumbnail" src="img/photos/nightflower1.jpg"> Nightflower 1 </a>
+                        <a href="img/photos/nightflower2.jpg" data-lightbox="image-7" data-title="nightflower2"><img class="img-fluid img-thumbnail" src="img/photos/nightflower2.jpg"> Nightflower 2 </a>
+                        <a href="img/photos/nightflower3.jpg" data-lightbox="image-8" data-title="nightflower3"><img class="img-fluid img-thumbnail" src="img/photos/nightflower3.jpg"> Nightflower 3 </a>
+                    </div>
+                    <div class="d-auto col-sm-4">
+                        <a href="img/photos/firework.jpg" data-lightbox="image-9" data-title="Sunrise"><img class="img-fluid img-thumbnail" src="img/photos/brandtpointsunrise.jpg"> Brandt Point Sunrise </a>
+                        <a href="img/photos/firework.jpg" data-lightbox="image-10" data-title="Hallows"><img class="img-fluid img-thumbnail" src="img/photos/tastefulhallows.jpg"> A Tasteful Hallows </a>
+                        <a href="img/photos/firework.jpg" data-lightbox="image-11" data-title="Remembrance"><img class="img-fluid img-thumbnail" src="img/photos/gonebutnotforgotten.jpg"> Gone But Not Forgotten </a>
+                        <a href="img/photos/firework.jpg" data-lightbox="image-12" data-title="My Date"><img class="img-fluid img-thumbnail" src="img/photos/mydate.jpg"> My Date to the Wedding </a>
+                        <a href="img/photos/firework.jpg" data-lightbox="image-13" data-title="Hell"><img class="img-fluid img-thumbnail" src="img/photos/hell.jpg"> Hell </a>
+
+                    </div>
 
                 </div>
-
             </div>
-
         </div>
     </div>
     <footer>
 
     </footer>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
 </body>
 
 </html>
