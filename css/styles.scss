@@ -11,26 +11,23 @@ body {
     background: $body-color;
 }
 
-h1{
+h1, h2, h3, h4 {
     font-family: $header-font;
-    font-size: 55px;
     color: $header-text-color;
+}
+h1{
+    font-size: 55px;
 }
 
 h2{
-    font-family: $header-font;
     font-size: 36px;
-    color: $header-text-color;
 }
 
 h3{
-    font-family: $header-font;
     font-size: 24px;
-    color: $header-text-color;
 }
 
 h4{
-    font-family: $header-font;
     font-size: 18px;
     color: $secondary-text-color;
 }
